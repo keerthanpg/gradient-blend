@@ -134,3 +134,4 @@ result(:,:,3) = f_blue;
 
 % Chop off the border:
 result = result(2:t_rows-1, 2:t_cols-1, :);
+result = uint8(result);
